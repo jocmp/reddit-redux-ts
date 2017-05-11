@@ -1,7 +1,7 @@
 import Post from './Post'
 
 interface Action {
-    subreddit: number 
+    subreddit: string 
     type: string
     posts: Post[]
     recievedAt: number
